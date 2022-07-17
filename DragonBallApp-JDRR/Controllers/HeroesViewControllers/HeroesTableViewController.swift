@@ -50,7 +50,7 @@ class HeroesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let nextVC = DetailViewController()
-        nextVC.hero = heroes[indexPath.row]
+        //nextVC.hero = heroes[indexPath.row]
         nextVC.set(model: heroes[indexPath.row])
         
         navigationController?.pushViewController(nextVC, animated: true)

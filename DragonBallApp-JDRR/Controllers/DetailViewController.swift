@@ -36,8 +36,11 @@ class DetailViewController: UIViewController {
     
     @IBAction func transformationsButtonTap(_ sender: Any) {
         
-        let nextVC = TransformationsTabBarController()
-        nextVC.selectedHero = hero
+        guard let hero = hero else {
+            return
+        }
+        
+        let nextVC = TransformationsTabBarController(hero: hero)
         navigationController?.pushViewController(nextVC, animated: true)
         
     }

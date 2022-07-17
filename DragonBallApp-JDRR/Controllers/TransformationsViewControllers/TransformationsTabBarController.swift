@@ -11,6 +11,15 @@ class TransformationsTabBarController: UITabBarController {
     
     var selectedHero: Hero?
     
+    init(hero: Hero){
+        selectedHero = hero
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder){
+        super.init(coder: coder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Transformaciones"
