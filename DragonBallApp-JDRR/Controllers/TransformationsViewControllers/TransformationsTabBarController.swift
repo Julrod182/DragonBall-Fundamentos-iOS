@@ -29,7 +29,7 @@ class TransformationsTabBarController: UITabBarController {
         let transformationsTableView = TransformationsTableViewController()
         transformationsTableView.hero = selectedHero
         let transformationsCollectionView = TransformationsCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
-        
+        transformationsCollectionView.hero = selectedHero
         
         //set titles
         transformationsTableView.title = "TableView"
