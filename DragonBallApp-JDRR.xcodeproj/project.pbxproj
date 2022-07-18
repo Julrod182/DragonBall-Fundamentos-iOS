@@ -21,7 +21,6 @@
 		CE958DA4287D17C60060A136 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE958DA2287D17C60060A136 /* TabBarController.xib */; };
 		CE958DAF287D238A0060A136 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE958DAD287D238A0060A136 /* CollectionViewController.swift */; };
 		CE958DB0287D238A0060A136 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE958DAE287D238A0060A136 /* CollectionViewController.xib */; };
-		CE958DB1287DAF1D0060A136 /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE958DA9287D22600060A136 /* HeroesTableViewController.swift */; };
 		CE958DB4287DBCAD0060A136 /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE958DB2287DBCAD0060A136 /* HeroesTableViewController.swift */; };
 		CE958DB5287DBCAD0060A136 /* HeroesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE958DB3287DBCAD0060A136 /* HeroesTableViewController.xib */; };
 		CE958DB8287DCB4B0060A136 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE958DB6287DCB4B0060A136 /* TableViewCell.swift */; };
@@ -38,24 +37,16 @@
 		CEAFC4BA2877DA5F003908BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC4B92877DA5F003908BD /* SceneDelegate.swift */; };
 		CEAFC4C12877DA60003908BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFC4C02877DA60003908BD /* Assets.xcassets */; };
 		CEAFC4C42877DA60003908BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFC4C22877DA60003908BD /* LaunchScreen.storyboard */; };
-		CEAFC4CF2877DA60003908BD /* DragonBallApp_JDRRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC4CE2877DA60003908BD /* DragonBallApp_JDRRTests.swift */; };
-		CEAFC4D92877DA60003908BD /* DragonBallApp_JDRRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC4D82877DA60003908BD /* DragonBallApp_JDRRUITests.swift */; };
-		CEAFC4DB2877DA60003908BD /* DragonBallApp_JDRRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC4DA2877DA60003908BD /* DragonBallApp_JDRRUITestsLaunchTests.swift */; };
 		CEAFC4E92877DB65003908BD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC4E72877DB65003908BD /* FirstViewController.swift */; };
 		CEAFC4EA2877DB65003908BD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAFC4E82877DB65003908BD /* FirstViewController.xib */; };
 		CEF75FE22883C148004CE4E4 /* TransformationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF75FE02883C148004CE4E4 /* TransformationDetailViewController.swift */; };
 		CEF75FE32883C148004CE4E4 /* TransformationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF75FE12883C148004CE4E4 /* TransformationDetailViewController.xib */; };
+		CEF75FE52884CFDF004CE4E4 /* LocalDataModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF75FE42884CFDF004CE4E4 /* LocalDataModelTest.swift */; };
+		CEF75FE92884D532004CE4E4 /* NetworkModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF75FE82884D532004CE4E4 /* NetworkModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CEAFC4CB2877DA60003908BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEAFC4AC2877DA5F003908BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEAFC4B32877DA5F003908BD;
-			remoteInfo = "DragonBallApp-JDRR";
-		};
-		CEAFC4D52877DA60003908BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEAFC4AC2877DA5F003908BD /* Project object */;
 			proxyType = 1;
@@ -77,7 +68,6 @@
 		CE1D2BE9287F7E030095E6F7 /* TransformationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationsTableViewCell.xib; sourceTree = "<group>"; };
 		CE958DA1287D17C60060A136 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CE958DA2287D17C60060A136 /* TabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
-		CE958DA9287D22600060A136 /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
 		CE958DAD287D238A0060A136 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		CE958DAE287D238A0060A136 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
 		CE958DB2287DBCAD0060A136 /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
@@ -99,14 +89,12 @@
 		CEAFC4C32877DA60003908BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAFC4C52877DA60003908BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAFC4CA2877DA60003908BD /* DragonBallApp-JDRRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DragonBallApp-JDRRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEAFC4CE2877DA60003908BD /* DragonBallApp_JDRRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallApp_JDRRTests.swift; sourceTree = "<group>"; };
-		CEAFC4D42877DA60003908BD /* DragonBallApp-JDRRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DragonBallApp-JDRRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEAFC4D82877DA60003908BD /* DragonBallApp_JDRRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallApp_JDRRUITests.swift; sourceTree = "<group>"; };
-		CEAFC4DA2877DA60003908BD /* DragonBallApp_JDRRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallApp_JDRRUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CEAFC4E72877DB65003908BD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CEAFC4E82877DB65003908BD /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		CEF75FE02883C148004CE4E4 /* TransformationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationDetailViewController.swift; sourceTree = "<group>"; };
 		CEF75FE12883C148004CE4E4 /* TransformationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationDetailViewController.xib; sourceTree = "<group>"; };
+		CEF75FE42884CFDF004CE4E4 /* LocalDataModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModelTest.swift; sourceTree = "<group>"; };
+		CEF75FE82884D532004CE4E4 /* NetworkModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,13 +106,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEAFC4C72877DA60003908BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEAFC4D12877DA60003908BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,7 +218,6 @@
 			children = (
 				CEAFC4B62877DA5F003908BD /* DragonBallApp-JDRR */,
 				CEAFC4CD2877DA60003908BD /* DragonBallApp-JDRRTests */,
-				CEAFC4D72877DA60003908BD /* DragonBallApp-JDRRUITests */,
 				CEAFC4B52877DA5F003908BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -247,7 +227,6 @@
 			children = (
 				CEAFC4B42877DA5F003908BD /* DragonBallApp-JDRR.app */,
 				CEAFC4CA2877DA60003908BD /* DragonBallApp-JDRRTests.xctest */,
-				CEAFC4D42877DA60003908BD /* DragonBallApp-JDRRUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,19 +250,10 @@
 		CEAFC4CD2877DA60003908BD /* DragonBallApp-JDRRTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEAFC4CE2877DA60003908BD /* DragonBallApp_JDRRTests.swift */,
+				CEF75FE42884CFDF004CE4E4 /* LocalDataModelTest.swift */,
+				CEF75FE82884D532004CE4E4 /* NetworkModelTest.swift */,
 			);
 			path = "DragonBallApp-JDRRTests";
-			sourceTree = "<group>";
-		};
-		CEAFC4D72877DA60003908BD /* DragonBallApp-JDRRUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE958DA9287D22600060A136 /* HeroesTableViewController.swift */,
-				CEAFC4D82877DA60003908BD /* DragonBallApp_JDRRUITests.swift */,
-				CEAFC4DA2877DA60003908BD /* DragonBallApp_JDRRUITestsLaunchTests.swift */,
-			);
-			path = "DragonBallApp-JDRRUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,24 +294,6 @@
 			productReference = CEAFC4CA2877DA60003908BD /* DragonBallApp-JDRRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEAFC4D32877DA60003908BD /* DragonBallApp-JDRRUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEAFC4E42877DA60003908BD /* Build configuration list for PBXNativeTarget "DragonBallApp-JDRRUITests" */;
-			buildPhases = (
-				CEAFC4D02877DA60003908BD /* Sources */,
-				CEAFC4D12877DA60003908BD /* Frameworks */,
-				CEAFC4D22877DA60003908BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEAFC4D62877DA60003908BD /* PBXTargetDependency */,
-			);
-			name = "DragonBallApp-JDRRUITests";
-			productName = "DragonBallApp-JDRRUITests";
-			productReference = CEAFC4D42877DA60003908BD /* DragonBallApp-JDRRUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,10 +308,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					CEAFC4C92877DA60003908BD = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = CEAFC4B32877DA5F003908BD;
-					};
-					CEAFC4D32877DA60003908BD = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = CEAFC4B32877DA5F003908BD;
 					};
@@ -380,7 +328,6 @@
 			targets = (
 				CEAFC4B32877DA5F003908BD /* DragonBallApp-JDRR */,
 				CEAFC4C92877DA60003908BD /* DragonBallApp-JDRRTests */,
-				CEAFC4D32877DA60003908BD /* DragonBallApp-JDRRUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,13 +356,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEAFC4C82877DA60003908BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEAFC4D22877DA60003908BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,17 +395,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAFC4CF2877DA60003908BD /* DragonBallApp_JDRRTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEAFC4D02877DA60003908BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEAFC4DB2877DA60003908BD /* DragonBallApp_JDRRUITestsLaunchTests.swift in Sources */,
-				CEAFC4D92877DA60003908BD /* DragonBallApp_JDRRUITests.swift in Sources */,
-				CE958DB1287DAF1D0060A136 /* HeroesTableViewController.swift in Sources */,
+				CEF75FE92884D532004CE4E4 /* NetworkModelTest.swift in Sources */,
+				CEF75FE52884CFDF004CE4E4 /* LocalDataModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,11 +407,6 @@
 			isa = PBXTargetDependency;
 			target = CEAFC4B32877DA5F003908BD /* DragonBallApp-JDRR */;
 			targetProxy = CEAFC4CB2877DA60003908BD /* PBXContainerItemProxy */;
-		};
-		CEAFC4D62877DA60003908BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEAFC4B32877DA5F003908BD /* DragonBallApp-JDRR */;
-			targetProxy = CEAFC4D52877DA60003908BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -704,42 +630,6 @@
 			};
 			name = Release;
 		};
-		CEAFC4E52877DA60003908BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W7Z62F45X3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bolingas.DragonBallApp-JDRRUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "DragonBallApp-JDRR";
-			};
-			name = Debug;
-		};
-		CEAFC4E62877DA60003908BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W7Z62F45X3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bolingas.DragonBallApp-JDRRUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "DragonBallApp-JDRR";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -766,15 +656,6 @@
 			buildConfigurations = (
 				CEAFC4E22877DA60003908BD /* Debug */,
 				CEAFC4E32877DA60003908BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEAFC4E42877DA60003908BD /* Build configuration list for PBXNativeTarget "DragonBallApp-JDRRUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEAFC4E52877DA60003908BD /* Debug */,
-				CEAFC4E62877DA60003908BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
